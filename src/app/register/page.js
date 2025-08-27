@@ -32,12 +32,8 @@ export default function Register(){
   return (
     <main>
       <Container sx={{ mt: 3 }}>
-        <div style={{ marginBottom: 12 }}>
-          <b>Domino&apos;s</b> &nbsp;|&nbsp;
-          <Link href="/customer">Customer</Link> &nbsp;|&nbsp;
-          <Link href="/view_cart">Cart</Link> &nbsp;|&nbsp;
-          <Link href="/manager">Manager</Link>
-        </div>
+      <div style={{ marginBottom: 12 }}><b>Domino&apos;s</b>
+      </div>
 
         <Typography variant="h6" gutterBottom>Register</Typography>
         {err && <Alert severity="error" sx={{ mb: 2 }}>{err}</Alert>}
