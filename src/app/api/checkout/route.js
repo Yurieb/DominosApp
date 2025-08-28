@@ -1,6 +1,8 @@
 import { db } from '@/lib/db';
 import { getCustomSession } from '../sessionCode';
 import { makeTransport } from '@/lib/email';
+export const dynamic = 'force-dynamic';
+
 
 export async function GET(){
   const s = await getCustomSession();

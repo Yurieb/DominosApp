@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 export async function GET(){
   const lat = process.env.WEATHER_LAT || '53.3498';
   const lon = process.env.WEATHER_LON || '-6.2603';

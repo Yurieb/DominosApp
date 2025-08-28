@@ -1,5 +1,6 @@
 import { db } from '@/lib/db';
 import { getCustomSession } from '../sessionCode';
+export const dynamic = 'force-dynamic';
 
 export async function GET(req){
   const s = await getCustomSession();
